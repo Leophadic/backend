@@ -57,7 +57,7 @@ This same request–response process happens whenever you log in, transfer money
 
 
 
-Explain Backend Development in your own words.
+1. Explain Backend Development in your own words.
 
 Backend development is the part of software development that focuses on everything that happens behind the scenes of a website or application. It is responsible for processing user requests, managing databases, handling authentication, performing business logic, and sending the correct information back to the user. In simple terms, the backend is the "brain" of an application that makes everything work.
 
@@ -93,6 +93,9 @@ Backend development is the part of software development that focuses on everythi
         +------------------+
         |      Client      |
         +------------------+
+
+
+
 3. Compare HTTP and HTTPS.
 
 HTTP (HyperText Transfer Protocol) is used to transfer data between a web browser and a web server. It does not encrypt the information being sent, making it less secure.
@@ -103,6 +106,9 @@ Simple Example:
 
 HTTP is like sending a postcard that anyone can read.
 HTTPS is like sending a sealed envelope that only the recipient can open.
+
+
+
 4. Explain the Request–Response cycle using an online shopping example.
 
 The Request–Response cycle is the communication process between a client (browser or app) and a server.
@@ -115,6 +121,11 @@ Your browser sends a request to the server asking to purchase the phone.
 The server checks the product availability and processes your order.
 The server sends a response confirming whether the purchase was successful.
 Your browser displays a message such as "Order placed successfully."
+
+
+
+
+
 5. Create three valid JSON objects.
 Student
 {
@@ -137,12 +148,19 @@ Product
   "price": 15000,
   "stock": 25
 }
+
+
+
 6. List five HTTP methods and describe when each should be used.
 GET – Used to retrieve data from a server, such as viewing a list of products.
 POST – Used to send new data to the server, such as creating a new account or placing an order.
 PUT – Used to completely update an existing resource, such as updating all details of a user's profile.
 PATCH – Used to partially update an existing resource, such as changing only a user's phone number.
 DELETE – Used to remove a resource from the server, such as deleting a user account or a product.
+
+
+
+
 7. Research one public API and explain what it does.
 
 One popular public API is the OpenWeather API.
